@@ -54,7 +54,7 @@ Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en cl
         op = input("¿Desea sumar (+) o restar (-) las matrices?: ")
 
         if op not in ["+", "-"]:
-            print("❌ Operación inválida.")
+            print("Operación inválida.")
         else:
             resultado = suma_resta_matrices(A, B, op)
             print("\n✅ Resultado:")
@@ -103,7 +103,7 @@ Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en cl
 
         # Validación de compatibilidad
         if c1 != f2:
-            print("❌ No se puede multiplicar: columnas de A deben ser igual a filas de B.")
+            print("No se puede multiplicar: columnas de A deben ser igual a filas de B.")
         else:
             print("\n--- Matriz A ---")
             A = leer_matriz(f1, c1)
@@ -196,7 +196,7 @@ Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en cl
             total = sumar_columna(A, col)
             print(f"✅ La suma de la columna {col} es: {total}")
         else:
-            print("❌ Índice fuera de rango.")
+            print("Índice fuera de rango.")
 
 ## 5. Desarrollar un programa que sume los elementos de una fila dada de una matriz.
 
@@ -253,6 +253,6 @@ Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en cl
             suma = sumar_fila(matriz, fila)
             print(f"\n✅ La suma de los elementos de la fila {fila} es: {suma}")
         else:
-            print("❌ Error: índice fuera del rango.")
+            print("Error: índice fuera del rango.")
 
 Aca terminamos los 5 puntos y los ejercicios de clase.   
