@@ -1,37 +1,6 @@
 # RETO #10
 
-Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en clase tendrá media décima en el examen 2 (créanme, las van a necesitar). Para cada punto cree un programa individual. Al finalizar suba todo a un repo y súbalo al canal reto_11 en slack.
-
-## Ejercicios en clase (por decimas en el parcial):
-
-1.
-
-      # Definición de las filas de la matriz
-      fila1 = [1, 2, 3]
-      fila2 = [4, 5, 6]
-      fila3 = [7, 8, 9]
-
-      # Construcción de la matriz a partir de las filas
-      A = [fila1, fila2, fila3]
-
-      # Impresión de la matriz completa
-      print(A)
-
-2.    
-
-    # Definimos la matriz A como una lista de listas (3x3)
-    A = [
-        [1, 2, 3],   # Fila 0
-        [4, 5, 6],   # Fila 1
-        [7, 8, 9]    # Fila 2
-    ]
-
-    # Accedemos al elemento que está en la fila 2 (índice 1), columna 3 (índice 2)
-    print(A[1][2])  # Resultado esperado: 6
-
-3.
-
-    
+Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en clase tendrá media décima en el examen 2 (créanme, las van a necesitar). Para cada punto cree un programa individual. Al finalizar suba todo a un repo y súbalo al canal reto_10 en slack.
 
 ## 1. Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
 
@@ -282,4 +251,4 @@ Desarrolle la mayoría de los ejercicios en clase, por cada punto resuelto en cl
         else:
             print("Error: índice fuera del rango.")
 
-Aca terminamos los 5 puntos y los ejercicios de clase.   
+Aca terminamos los 5 puntos. 
